@@ -8,21 +8,24 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../img/Slider/3.png" class="d-block w-100" alt="...">
+       
+      <img :src="'../img/Slider/3.png'" class="d-block w-100" alt="...">
+
       <div class="carousel-caption d-none d-md-block">
         <!--<h1>Discover IV Treatments</h1>
         <p>Revolutionize your well-being</p> -->
       </div>
+      
     </div>
     <div class="carousel-item">
-      <img src="../img/Slider/4.png" class="d-block w-100" alt="...">
+      <img :src="'../img/Slider/4.png'" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Non-IV Treatments</h1>
         <p>Renew your inner balance</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../img/Slider/5.png" class="d-block w-100" alt="...">
+      <img :src="'../img/Slider/5.png'" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>IV Treatments</h1>
         <p>You will love it!</p>

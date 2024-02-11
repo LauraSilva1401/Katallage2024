@@ -3,11 +3,11 @@
     <footer class="py-3 my-4 footer">
 
         <ul class="nav justify-content-center pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Our Team</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Wholeness</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+            <li class="nav-item"><a href="/#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="/#aboutus" class="nav-link px-2 text-muted">About Us</a></li>
+            <li class="nav-item"><a href="/#team" class="nav-link px-2 text-muted">Our Team</a></li>
+            <li class="nav-item"><a href="/#services" class="nav-link px-2 text-muted">Wholeness</a></li>
+            <li class="nav-item"><a href="/#contact" class="nav-link px-2 text-muted">Contact</a></li>
         
         </ul>
 
