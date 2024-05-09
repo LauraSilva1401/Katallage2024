@@ -29,7 +29,18 @@ Functional Medicine and Anthroposophic Medicine practitioner
           <img :src="'../img/Team/Quan.jpeg'" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Quan Zhou</h5>
-            <p class="card-text">Acupuncturist - Coming Soon!</p>
+            <p class="card-text">Acupuncturist - M.S. Human Nutrition <br><br> Coming Soon! </p>
+            <NuxtLink to="/team/quan" class="btn btn-primary" aria-current="page">View More</NuxtLink>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img :src="'../img/Team/Nicole.jpg'" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nicole Speckhard</h5>
+            <p class="card-text">Physician Assistant</p>
             <!--<a href="#" class="btn btn-primary">View More</a>-->
           </div>
         </div>

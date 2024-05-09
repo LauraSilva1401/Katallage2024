@@ -38,7 +38,7 @@
                     <NuxtLink to="/#contact" class="nav-link active" @click.native="collapseNavbar" aria-current="page">Contact</NuxtLink>
                 </li>
                 <li class="nav-item">
-                    <NuxtLink to="/" class="nav-link active" @click.native="collapseNavbar" aria-current="page">Conditions</NuxtLink>
+                    <NuxtLink to="/blog" class="nav-link active" @click.native="collapseNavbar" aria-current="page">Blog</NuxtLink>
                 </li>
                 
                 
