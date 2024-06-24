@@ -28,13 +28,13 @@
 
     </div>
 
-    <div class="container contactCon">
+    <!--<div class="container contactCon">
 
         <div class="row">
             <contact/>
         </div>
 
-    </div>
+    </div>-->
     
     
     

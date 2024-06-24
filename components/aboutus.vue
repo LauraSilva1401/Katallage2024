@@ -1,4 +1,5 @@
 <template>
+<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,420;1,420&display=swap" rel="stylesheet">
 
     <section id="aboutus">
 
@@ -10,6 +11,12 @@
 
         <div class="container text-center">
             <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+
+            <div class="row par1">
+                <div class="col-md-12">About Us</div>
+                
+            </div>
+
             <div class="row par1">
                 <div class="col-md-12">Welcome to Katallage Wellness Center <br> Your Path to total well-being</div>
                 
@@ -59,6 +66,11 @@
 
 <style scoped>
 
+.container{
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 540;
+    font-size: large;
+}
 .title {
     width: 25%;
     height: auto;

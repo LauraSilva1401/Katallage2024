@@ -1,4 +1,6 @@
 <template>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,150;1,150&display=swap" rel="stylesheet">
+
     <section id="henrispecs">
 
 
@@ -53,7 +55,11 @@
     margin-top: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
-
+.container{
+    font-family: "MuseoModerno", sans-serif;
+    font-size: x-large;
+    font-weight: 150;
+}
 .title {
     width: 60%;
     height: auto;
@@ -72,7 +78,8 @@
     padding-right: 50px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     text-align: justify;
-    
+    border-radius: 30px;
+
 }
 
 .order-sm-3 {

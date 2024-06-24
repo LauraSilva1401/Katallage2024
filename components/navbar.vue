@@ -1,5 +1,7 @@
 <template>
 
+<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
             <!--<a class="navbar-brand d-lg-none" href="#"> Show only on small screens
@@ -35,7 +37,7 @@
                     <NuxtLink to="/#services" class="nav-link active" @click.native="collapseNavbar" aria-current="page">Wholeness</NuxtLink>
                 </li>
                 <li class="nav-item">
-                    <NuxtLink to="/#contact" class="nav-link active" @click.native="collapseNavbar" aria-current="page">Contact</NuxtLink>
+                    <NuxtLink to="/contact" class="nav-link active" @click.native="collapseNavbar" aria-current="page">Contact</NuxtLink>
                 </li>
                 <li class="nav-item">
                     <NuxtLink to="/blog" class="nav-link active" @click.native="collapseNavbar" aria-current="page">Blog</NuxtLink>
@@ -101,7 +103,8 @@ export default {
 
 .nav-link {
   color: #648bcd !important;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+  font-family: "MuseoModerno", sans-serif;
+  //font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 
 .navbar-brand {

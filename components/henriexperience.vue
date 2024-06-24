@@ -1,4 +1,5 @@
 <template>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
 
     <section id="henriexperience">
 
@@ -8,7 +9,7 @@
 
         </a>
 
-        <div class="container text-center rounded cont1">
+        <div class="container text-center  cont1">
             <div class="row align-items-center">
 
                 <div class="col par1">
@@ -39,7 +40,12 @@
     margin-top: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
+.container{
+    font-family: "MuseoModerno", sans-serif;
+    font-size: x-large;
+    font-weight: 150;
 
+}
 .title {
     width: 25%;
     height: auto;
@@ -57,7 +63,8 @@
     padding-left: 50px;
     padding-right: 50px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    
+    border-radius: 30px;
+
 }
 
 @media (max-width: 991px) { /* Adjust breakpoint as needed */

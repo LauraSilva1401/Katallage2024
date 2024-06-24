@@ -41,6 +41,7 @@ Functional Medicine and Anthroposophic Medicine practitioner
           <div class="card-body">
             <h5 class="card-title">Nicole Speckhard</h5>
             <p class="card-text">Physician Assistant</p>
+            <NuxtLink to="/team/nicole" class="btn btn-primary" aria-current="page">View More</NuxtLink>
             <!--<a href="#" class="btn btn-primary">View More</a>-->
           </div>
         </div>
